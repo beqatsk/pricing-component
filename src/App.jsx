@@ -28,6 +28,22 @@ function App() {
           <div className="line"></div>
           <button className="learn-button">LEARN MORE</button>
         </div>
+
+        <div className="main-container-active">
+          <h3 className="title-active">{}</h3>
+          <h1 className="price-active">
+            <span className="currency-active">$</span>
+            {}
+          </h1>
+          <div className="line-active"></div>
+          <h4 className="detail-active">{}</h4>
+          <div className="line-active"></div>
+          <h4 className="detail-active">{}</h4>
+          <div className="line-active"></div>
+          <h4 className="detail-active">{}</h4>
+          <div className="line-active"></div>
+          <button className="learn-button-active">LEARN MORE</button>
+        </div>
       </div>
     </>
   );

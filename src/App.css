@@ -35,22 +35,35 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.main-container {
+.main-container,
+.main-container-active {
   width: 350px;
-  height: 453px;
   padding: 31px;
-  background-color: white;
   border-radius: 10px;
   margin-top: 50px;
 }
-.title {
+.main-container {
+  background-color: white;
+  height: 453px;
+}
+.main-container-active {
+  height: 500px;
+  background-image: linear-gradient(145deg, #a2a7f0 17%, #696edd 117%);
+}
+.title,
+.title-active {
   font-size: 18px;
   line-height: 1.56;
+}
+.title {
   color: #6e728e;
 }
-.price {
+.title-active {
+  color: white;
+}
+.price,
+.price-active {
   font-size: 72px;
-  color: #4a4d60;
   line-height: 0.99;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -59,34 +72,71 @@ h2 {
   align-items: center;
   gap: 8px;
 }
-.currency {
-  font-size: 40px;
+.price {
   color: #4a4d60;
+}
+.price-active {
+  color: white;
+}
+.currency,
+.currency-active {
+  font-size: 40px;
   letter-spacing: -1.2px;
 }
-.line {
+.currency {
+  color: #4a4d60;
+}
+.currency-active {
+  color: white;
+}
+.line,
+.line-active {
   width: 288px;
   opacity: 0.25;
-  border: 1px solid #6e728e;
+
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.detail {
+.line {
+  border: 1px solid #6e728e;
+}
+.line-active {
+  border: 1px solid white;
+}
+.detail,
+.detail-active {
   font-size: 15px;
-  color: #6e728e;
+}
+.detail {
   color: #6e728e;
 }
-.learn-button {
+.detail-active {
+  color: white;
+}
+.learn-button,
+.learn-button-active {
   width: 100%;
   height: 44px;
   border-radius: 6px;
   font-size: 13px;
+  margin-top: 32px;
+  letter-spacing: 1.39px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.learn-button {
   color: white;
   background-image: linear-gradient(99deg, #a2a7f0 0%, #696edd 100%);
-  margin-top: 32px;
-  cursor: pointer;
 }
 .learn-button:hover {
   color: rgb(79, 79, 189);
   background-image: linear-gradient(99deg, #b1b4e9 0%, #d5d6ea 100%);
+}
+.learn-button-active {
+  background-color: white;
+  color: #6d72de;
+}
+.learn-button-active:hover {
+  color: white;
+  background-color: #4e52a4;
 }
