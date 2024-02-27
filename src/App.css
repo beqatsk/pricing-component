@@ -6,8 +6,8 @@ h2 {
 .toggle-menu {
   display: flex;
   gap: 24px;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   margin-top: 40px;
 }
 .annually,
@@ -29,4 +29,64 @@ h2 {
   height: 24px;
   background-color: white;
   border-radius: 50px;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 350px;
+  height: 453px;
+  padding: 31px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.title {
+  font-size: 18px;
+  line-height: 1.56;
+  color: #6e728e;
+}
+.price {
+  font-size: 72px;
+  color: #4a4d60;
+  line-height: 0.99;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.currency {
+  font-size: 40px;
+  color: #4a4d60;
+  letter-spacing: -1.2px;
+}
+.line {
+  width: 288px;
+  opacity: 0.25;
+  border: 1px solid #6e728e;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.detail {
+  font-size: 15px;
+  color: #6e728e;
+  color: #6e728e;
+}
+.learn-button {
+  width: 100%;
+  height: 44px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: white;
+  background-image: linear-gradient(99deg, #a2a7f0 0%, #696edd 100%);
+  margin-top: 32px;
+  cursor: pointer;
+}
+.learn-button:hover {
+  color: rgb(79, 79, 189);
+  background-image: linear-gradient(99deg, #b1b4e9 0%, #d5d6ea 100%);
 }

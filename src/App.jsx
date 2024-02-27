@@ -12,6 +12,23 @@ function App() {
         </div>
         <p className="monthly">Monthly</p>
       </div>
+      <div className="list-container">
+        <div className="main-container">
+          <h3 className="title">{}</h3>
+          <h1 className="price">
+            <span className="currency">$</span>
+            {}
+          </h1>
+          <div className="line"></div>
+          <h4 className="detail">{}</h4>
+          <div className="line"></div>
+          <h4 className="detail">{}</h4>
+          <div className="line"></div>
+          <h4 className="detail">{}</h4>
+          <div className="line"></div>
+          <button className="learn-button">LEARN MORE</button>
+        </div>
+      </div>
     </>
   );
 }
