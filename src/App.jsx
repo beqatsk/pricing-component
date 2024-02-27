@@ -44,6 +44,22 @@ function App() {
           <div className="line-active"></div>
           <button className="learn-button-active">LEARN MORE</button>
         </div>
+
+        <div className="main-container">
+          <h3 className="title">{}</h3>
+          <h1 className="price">
+            <span className="currency">$</span>
+            {}
+          </h1>
+          <div className="line"></div>
+          <h4 className="detail">{}</h4>
+          <div className="line"></div>
+          <h4 className="detail">{}</h4>
+          <div className="line"></div>
+          <h4 className="detail">{}</h4>
+          <div className="line"></div>
+          <button className="learn-button">LEARN MORE</button>
+        </div>
       </div>
     </>
   );

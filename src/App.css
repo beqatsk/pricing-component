@@ -34,13 +34,15 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
 .main-container,
 .main-container-active {
   width: 350px;
   padding: 31px;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 .main-container {
   background-color: white;
