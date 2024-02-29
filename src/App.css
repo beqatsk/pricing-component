@@ -1,36 +1,3 @@
-h2 {
-  font-size: 32px;
-  color: #6e728e;
-  margin-top: 72px;
-}
-.toggle-menu {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-}
-.annually,
-.monthly {
-  font-size: 15px;
-  color: #6e728e;
-  line-height: 1.87;
-  opacity: 0.5;
-}
-.toggle-btn {
-  width: 56px;
-  height: 32px;
-  padding: 4px 4px 4px 28px;
-  border-radius: 16px;
-  background-image: linear-gradient(120deg, #a2a7f0 -25%, #696edd 75%);
-  cursor: pointer;
-}
-.circle {
-  width: 24px;
-  height: 24px;
-  background-color: white;
-  border-radius: 50px;
-}
 .list-container {
   display: flex;
   justify-content: center;

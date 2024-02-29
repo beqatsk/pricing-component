@@ -1,0 +1,53 @@
+h2 {
+  font-size: 32px;
+  color: #6e728e;
+  margin-top: 72px;
+}
+.toggle-menu {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.annually,
+.monthly {
+  font-size: 15px;
+  color: #6e728e;
+  line-height: 1.87;
+  opacity: 0.5;
+}
+.toggle {
+  position: relative;
+  display: inline-block;
+  margin-top: 0.5rem;
+  width: 50px;
+  height: 26px;
+  background-color: hsl(0, 0%, 85%);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in;
+}
+.toggle::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.25s ease-out;
+}
+#cb-toggle:checked + .toggle {
+  background-image: linear-gradient(145deg, #a2a7f0 17%, #696edd 117%);
+}
+#cb-toggle:checked + .toggle::after {
+  transform: translateX(24px);
+}
+.hide-me {
+  display: none;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
