@@ -1,11 +1,14 @@
 import "./toggle.css";
-const Toggle = () => {
+const Toggle = ({ setMonthly }) => {
   return (
     <div>
       <h2>Our Pricing</h2>
       <div className="toggle-menu">
         <p className="annually">Annually</p>
         <input
+          onChange={(event) => {
+            setMonthly(event.target.checked);
+          }}
           id="cb-toggle"
           type="checkbox"
           className="hide-me"

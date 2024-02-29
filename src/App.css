@@ -18,7 +18,7 @@
 }
 .main-container-active {
   height: 500px;
-  background-image: linear-gradient(145deg, #a2a7f0 17%, #696edd 117%);
+  background-color: #6d72de;
 }
 .title,
 .title-active {
@@ -110,3 +110,12 @@
   color: white;
   background-color: #4e52a4;
 }
+/* @media (max-width: 1070px) {
+  .main-container-active {
+    background-color: white;
+    height: 453px;
+  }
+  .title-active {
+    color: #6e728e;
+  }
+} */
